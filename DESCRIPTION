@@ -1,0 +1,15 @@
+Package: eRNAFinder
+Title: Find eRNA from StringTie Transcripts
+Version: 0.1.0
+Authors@R: 
+    person("Poshan", "Bhattarai", 
+    email = "poshanb@chosun.ac.kr", 
+    role = c("aut", "cre"))
+Description: Identifies enhancer RNA transcripts from StringTie output.
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.3.3
+Imports:
+    GenomicRanges,
+    rtracklayer,
+    IRanges
