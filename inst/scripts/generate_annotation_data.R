@@ -7,7 +7,7 @@
 #'   output_dir = "ext/"
 #' )
 
-generate_annotation_files <- function(gencode_gtf_path, output_dir = "ext/") {
+generate_annotation_files <- function(gencode_gtf_path, output_dir = "extdata/") {
 
   if (!file.exists(gencode_gtf_path)) {
     stop("GENCODE GTF file not found: ", gencode_gtf_path)
